@@ -7,6 +7,8 @@ Meu critério para saber se um sistema está bom: ele continua funcionando quand
 Gosto de entender como as pessoas trabalham, achar a causa real do problema e só dizer que
 funciona depois de testar.
 
+**Contato:** igorlira491@gmail.com
+
 ---
 
 ## Projetos
@@ -63,6 +65,7 @@ com `sha256sum`, cifragem de dados
 ## Como eu trabalho
 
 - **Testo antes de dizer que funciona**, inclusive simulando falhas
+- **Sei lidar com o público:** aprendi atendimento e negociação trabalhando no comércio local
 - **Registro decisões** para que outra pessoa consiga continuar o trabalho
 - **Uso IA (Claude Code) como ferramenta de desenvolvimento** e assumo a responsabilidade pelo
   que entrego: requisitos, decisões de segurança, testes e aprovação de cada etapa
