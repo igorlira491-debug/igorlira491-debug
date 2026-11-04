@@ -28,20 +28,22 @@ com quedas de energia frequentes e dados pessoais de crianças.
 
 <img src="https://raw.githubusercontent.com/igorlira491-debug/sistema-biblioteca/main/capturas/tela-geral.png" alt="Painel do sistema da biblioteca, com o mapa dos 28 computadores e dados fictícios" width="600">
 
-### App Android para clínica de terapia infantil · código privado
+### App Android para clínica de terapia infantil · [ver código](https://github.com/igorlira491-debug/assistente-clinica)
 
 **O problema:** a rotina da clínica estava espalhada entre sistema, planilha, papel e
 WhatsApp, e tarefas como confirmar sessões e remarcar faltas eram esquecidas.
 
 - Tela que mostra **o que precisa ser feito hoje**, com lembretes que funcionam mesmo com o app fechado
 - Requisitos levantados com quem usa, a partir de conversas, fotos e vídeo do trabalho real
-- Segurança em primeiro lugar: **banco cifrado, PIN por pessoa, backup cifrado e registro de ações**
-- Funciona offline, com migração testada entre versões do banco de dados
-- **Mais de 180 testes no computador e mais de 100 em celular real**
+- Sem servidor e sem nuvem: **os dados ficam só no celular da clínica**
+- Segurança em primeiro lugar: **banco cifrado (SQLCipher + Android Keystore), PIN por pessoa,
+  backup cifrado (AES-GCM) e registro de ações**
+- LGPD desde o início: consentimento registrado, exportação e exclusão dos dados de uma criança
+- **171 testes no computador e 120 no aparelho**, incluindo migrações do banco de dados
 
-`Kotlin` `Jetpack Compose` `Room` `SQLCipher`
+`Kotlin` `Jetpack Compose` `Room` `SQLCipher` `Android Keystore`
 
-*Em fase de testes com a cliente, usando dados fictícios. O código é privado para proteger a cliente.*
+*Desenvolvido para uso real. Publicado com autorização da clínica, com nome e identidade substituídos por genéricos.*
 
 ---
 
